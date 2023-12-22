@@ -1,70 +1,78 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# WitQuiz-Whiz
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This project is a full-stack web application built with React for the frontend and FastAPI (Python) for the backend. It provides functionality to generate multiple-choice questions (MCQs) based on a given URL.
 
-### `npm start`
+## Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation and Run
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run the frontend, follow these steps:
 
-### `npm test`
+1. Open a terminal and navigate to the directory.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies.
+   ```
+   npm install
+   ```
 
-### `npm run build`
+3. Start the development server.
+   ```
+   npm run start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Open your web browser and visit [http://localhost:3000](http://localhost:3000).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation and Run
 
-### `npm run eject`
+To run the backend, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Open a terminal and navigate to the backend directory.
+   ```
+   cd "Backend FastAPI Files"
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Activate the virtual environment.
+   ```
+   source venv/bin/activate
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Run the FastAPI server.
+   ```
+   uvicorn app.main:app --reload
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Open your web browser and visit [http://localhost:8000/docs](http://localhost:8000/docs) to access the FastAPI interactive documentation.
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Start the frontend and backend servers as instructed above.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Access the web application at [http://localhost:3000](http://localhost:3000).
 
-### Code Splitting
+3. Enter a URL and click the "Generate MCQs" button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. The application will communicate with the backend to fetch MCQs based on the provided URL.
 
-### Analyzing the Bundle Size
+5. View the generated MCQs and associated information on the web page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Dependencies
 
-### Making a Progressive Web App
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- React
+- Other dependencies are listed in the `package.json` file.
 
-### Advanced Configuration
+### Backend
+-- virtualenv
+-- `pip install virtualenv`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Additional Notes
 
-### Deployment
+- Ensure that both the frontend and backend servers are running simultaneously for the application to work correctly.
+- Make sure to activate the virtual environment before running the backend server.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
