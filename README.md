@@ -5,6 +5,9 @@
 
 This project is a full-stack web application built with React for the frontend and FastAPI (Python) for the backend. It provides functionality to generate multiple-choice questions (MCQs) based on a given URL.
 
+![Video](assets/mp4/git_video.mp4)
+
+
 ## Frontend
 
 ### Installation and Run
