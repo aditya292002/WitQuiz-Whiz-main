@@ -4,7 +4,7 @@
 ## Overview
 
 This project is a full-stack web application built with React for the frontend and FastAPI (Python) for the backend. It provides functionality to generate multiple-choice questions (MCQs) based on a given URL.
-[![Watch the video](https://github.com/aditya292002/WitQuiz-Whiz-main/assets/68159582/a70081e7-1b73-4d55-98aa-dee5d1cbf2d1.png)](https://github.com/aditya292002/WitQuiz-Whiz-main/assets/68159582/a70081e7-1b73-4d55-98aa-dee5d1cbf2d1.mp4)
+[![Watch the video](https://github.com/aditya292002/WitQuiz-Whiz-main/assets/68159582/a70081e7-1b73-4d55-98aa-dee5d1cbf2d1.png)](https://github.com/aditya292002/WitQuiz-Whiz-main/assets/68159582/288e2084-b619-4d21-bf0f-bcbb54c19cdc)
 
 ## Frontend
 
